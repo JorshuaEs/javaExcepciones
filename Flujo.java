@@ -3,11 +3,12 @@ public class Flujo {
 
 	public static void main(String[] args) {
 		System.out.println("Ini do main");
-		try {
-			metodo1();
-		} catch (MiException e) {
-			e.printStackTrace();
-		}
+			try {
+				metodo1();
+			} catch (MiException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
 		System.out.println("Fim do main");
 	}	
 
