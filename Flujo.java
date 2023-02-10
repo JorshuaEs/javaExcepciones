@@ -18,7 +18,8 @@ public class Flujo {
 	}
 	
 	private static void metodo2() {
-		System.out.println("Ini do metodo2");
-		throw new MiException("Mi excepcion fue lanzada");
+		//System.out.println("Ini do metodo2");
+		//throw new MiException("Mi excepcion fue lanzada");
+		metodo2();//creacion de error stackOverflowError
 	}
 }
